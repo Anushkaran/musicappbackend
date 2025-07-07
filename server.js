@@ -10,8 +10,20 @@ const playlistRoutes = require('./routes/playlists');
 const app = express();
 
 // Middleware
-app.use(cors());
+// backend/server.js
+const corsOptions = {
+  origin: [
+    'https://musicappfrontend.netlify.app',  // your Netlify URL
+    'http://localhost:3000'                  // keep localhost for local dev
+  ],
+  methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
+  allowedHeaders: ['Content-Type','Authorization']
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));   // <-- enable preflight for every route
 app.use(express.json());
+
 
 // Root health check endpoint
 app.get('/', (req, res) => {
