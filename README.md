@@ -69,5 +69,7 @@ They can curate their own collections by creating, renaming, and deleting playli
 Engagement features include liking individual tracks—and leaving comments to share thoughts. 
 Additionally, users can download songs for offline listening when needed and share favorite tracks or playlists on social media to connect with friends.
 
-
+Below is a credential created by me:
+username:venkat@gmail.com
+password:vvenkat@gmail.com
 
