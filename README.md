@@ -71,5 +71,5 @@ Additionally, users can download songs for offline listening when needed and sha
 
 Below is a credential created by me:
 username:venkat@gmail.com
-password:vvenkat@gmail.com
+password:venkat@gmail.com
 
